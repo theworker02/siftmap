@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/siftmap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sift and reshape map text streams with deterministic transforms.",
+  "bin": {
+    "siftmap": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/siftmap.git"
+  },
+  "homepage": "https://theworker02.github.io/siftmap/",
+  "keywords": [
+    "sift",
+    "map",
+    "text",
+    "cli",
+    "toolkit"
+  ]
+}
